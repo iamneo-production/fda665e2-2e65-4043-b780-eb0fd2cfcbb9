@@ -1,0 +1,14 @@
+<div class="comp">
+    <div class="form">
+        <form [formGroup]="data">
+            <h2>
+                Share your Experiance
+            </h2>
+                Name:<br>
+                <input type="text" id="inputName" formControlName="name"><br>
+                Comments:<br>
+                <textarea id="inputComment"  formControlName="comment"></textarea><br>
+                <input type="submit" (click)="getData()" id="submitButton" value="Post">
+        </form>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+p,h3{
+    margin: 0;
+}
+p{
+    margin-bottom: 20px;
+}
+.content{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 50px;
+}

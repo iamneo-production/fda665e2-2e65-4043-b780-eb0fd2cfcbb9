@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="head">
+    <h2>Comments about Course</h2>
+  </div>
+  <div class="contents">
+    <div class="details">
+      <app-details [list]="list"></app-details>
+    </div>
+    <div class="form">
+      <app-form
+      (finalData)="getData($event)"></app-form>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>
